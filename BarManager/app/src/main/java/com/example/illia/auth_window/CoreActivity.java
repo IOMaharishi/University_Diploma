@@ -27,14 +27,15 @@ public class CoreActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         //supportRequestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
 
+
+
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.menu_activity);
+        setContentView(R.layout.core_activity);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
 
         drawer = Utils.createCommonDrawer(CoreActivity.this, toolbar);
-        drawer.setSelection(1,false);
         drawer.openDrawer();
 
     }

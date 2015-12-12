@@ -13,6 +13,8 @@ import android.widget.AdapterView;
 
 import com.example.illia.auth_window.R;
 import com.example.illia.auth_window.fragments.MenuFragment;
+import com.example.illia.auth_window.fragments.MessageFragment;
+import com.example.illia.auth_window.fragments.OrdersFragment;
 import com.mikepenz.fontawesome_typeface_library.FontAwesome;
 import com.mikepenz.google_material_typeface_library.GoogleMaterial;
 import com.mikepenz.iconics.IconicsDrawable;
@@ -74,25 +76,29 @@ public class Utils {
             @Override
             public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
 
-
+/*
                 switch (drawerItem.getIdentifier()){
 
                     case 1:activity.getSupportFragmentManager().beginTransaction().replace(R.id.frame_container, new MenuFragment()).commit();
                     case 2:activity.getSupportFragmentManager().beginTransaction().replace(R.id.frame_container, new MenuFragment()).commit();
-                    case 3:activity.getSupportFragmentManager().beginTransaction().replace(R.id.frame_container, new MenuFragment()).commit();
+                    case 3:activity.getSupportFragmentManager().beginTransaction().replace(R.id.frame_container, new OrdersFragment()).commit();
                     case 4:activity.getSupportFragmentManager().beginTransaction().replace(R.id.frame_container, new MenuFragment()).commit();
-                    default: activity.getSupportFragmentManager().beginTransaction().replace(R.id.frame_container, new MenuFragment()).commit();
-                }
 
-                /*if (drawerItem != null) {
+                }
+*/
+                if (drawerItem != null) {
 
                     if (drawerItem.getIdentifier() == 1) {
-                        activity.getSupportFragmentManager().beginTransaction().replace(R.id.frame_container, new Fragment1()).commit();
+                        activity.getSupportFragmentManager().beginTransaction().replace(R.id.frame_container, new MessageFragment()).commit();
                     } else if (drawerItem.getIdentifier() == 2) {
-                        activity.getSupportFragmentManager().beginTransaction().replace(R.id.frame_container, new Fragment2()).commit();
+                        activity.getSupportFragmentManager().beginTransaction().replace(R.id.frame_container, new MenuFragment()).commit();
                     } else if (drawerItem.getIdentifier() == 3) {
-                        activity.getSupportFragmentManager().beginTransaction().replace(R.id.frame_container, new Fragment3()).commit();
-                    } else if (drawerItem.getIdentifier() == 70) {
+                        activity.getSupportFragmentManager().beginTransaction().replace(R.id.frame_container, new OrdersFragment()).commit();
+                    }else if (drawerItem.getIdentifier() == 4) {
+                        activity.getSupportFragmentManager().beginTransaction().replace(R.id.frame_container, new MenuFragment()).commit();
+                    }
+
+                    /* else if (drawerItem.getIdentifier() == 70) {
                         // Rate App
                         try {
                             Intent int_rate = new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + activity.getApplicationContext().getPackageName()));
@@ -101,9 +107,9 @@ public class Utils {
                         } catch (Exception e) {
 
                         }
-                    }
+                    }*/
 
-                }*/
+                }
                 return false;
             }
         };
