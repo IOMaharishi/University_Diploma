@@ -3274,6 +3274,7 @@ If the Library as you received it specifies that a proxy can decide whether futu
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
     </style>
     <style name="AuthWindow" parent="android:Theme.Holo.Light.DarkActionBar"/>
     <!-- From: file:/C:/Users/wwwmu/Desktop/University_Diploma/BarManager/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml -->

@@ -2559,6 +2559,7 @@ containing a value of this type.
         public static final int textView12=0x7f0c00ac;
         public static final int textView2=0x7f0c009c;
         public static final int textView3=0x7f0c009e;
+        public static final int textView4=0x7f0c00ad;
         public static final int time=0x7f0c00a5;
         public static final int title=0x7f0c0034;
         public static final int title_template=0x7f0c0039;
@@ -2646,7 +2647,8 @@ containing a value of this type.
         public static final int select_dialog_multichoice_material=0x7f040042;
         public static final int select_dialog_singlechoice_material=0x7f040043;
         public static final int support_simple_spinner_dropdown_item=0x7f040044;
-        public static final int toolbar=0x7f040045;
+        public static final int tables_activity=0x7f040045;
+        public static final int toolbar=0x7f040046;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;

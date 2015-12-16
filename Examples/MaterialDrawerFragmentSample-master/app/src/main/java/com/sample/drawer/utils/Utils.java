@@ -1,6 +1,7 @@
 package com.sample.drawer.utils;
 
 import android.app.Activity;
+import android.app.SearchManager;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -165,6 +166,9 @@ public class Utils {
 
         return drawerResult;
     }
+
+
+
 
 
 }

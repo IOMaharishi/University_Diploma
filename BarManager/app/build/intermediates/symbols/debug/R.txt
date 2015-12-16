@@ -1064,6 +1064,7 @@ int id textView 0x7f0c009a
 int id textView12 0x7f0c00ac
 int id textView2 0x7f0c009c
 int id textView3 0x7f0c009e
+int id textView4 0x7f0c00ad
 int id time 0x7f0c00a5
 int id title 0x7f0c0034
 int id title_template 0x7f0c0039
@@ -1147,7 +1148,8 @@ int layout select_dialog_item_material 0x7f040041
 int layout select_dialog_multichoice_material 0x7f040042
 int layout select_dialog_singlechoice_material 0x7f040043
 int layout support_simple_spinner_dropdown_item 0x7f040044
-int layout toolbar 0x7f040045
+int layout tables_activity 0x7f040045
+int layout toolbar 0x7f040046
 int mipmap ic_launcher 0x7f030000
 int string abc_action_bar_home_description 0x7f060000
 int string abc_action_bar_home_description_format 0x7f060001

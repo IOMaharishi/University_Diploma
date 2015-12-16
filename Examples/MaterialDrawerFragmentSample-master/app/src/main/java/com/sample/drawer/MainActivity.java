@@ -3,6 +3,7 @@ package com.sample.drawer;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
+import android.widget.Button;
 
 import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.accountswitcher.AccountHeader;
@@ -34,6 +35,10 @@ public class MainActivity extends ActionBarActivity {
 
         // Покажем drawer автоматически при запуске
         drawerResult.openDrawer();
+
+
+
+
 
     }
 
