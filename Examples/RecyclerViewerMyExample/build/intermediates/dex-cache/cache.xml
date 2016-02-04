@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\wwwmu\Desktop\University_Diploma\Examples\RecyclerViewerMyExample\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\wwwmu\Desktop\University_Diploma\Examples\RecyclerViewerMyExample\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_795eb89b1bd35d44eb12e1676a29be6284dfdeee.jar" />
+    </item>
+    <item
+        jar="C:\Users\wwwmu\Desktop\University_Diploma\Examples\RecyclerViewerMyExample\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\wwwmu\Desktop\University_Diploma\Examples\RecyclerViewerMyExample\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_f3370c727ddaf671597e4473c7f5aa35b610c886.jar" />
+    </item>
+    <item
+        jar="C:\Users\wwwmu\Desktop\University_Diploma\Examples\RecyclerViewerMyExample\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\wwwmu\Desktop\University_Diploma\Examples\RecyclerViewerMyExample\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_d5d9b6ea80a762b046543971ffd0d552104f9e5d.jar" />
+    </item>
+    <item
+        jar="C:\Users\wwwmu\Desktop\University_Diploma\Examples\RecyclerViewerMyExample\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\wwwmu\Desktop\University_Diploma\Examples\RecyclerViewerMyExample\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_0395fcf7acc006b6fbe550e7abee26f53c1de2ee.jar" />
+    </item>
+    <item
+        jar="C:\Users\wwwmu\Desktop\University_Diploma\Examples\RecyclerViewerMyExample\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\wwwmu\Desktop\University_Diploma\Examples\RecyclerViewerMyExample\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_4d9a0895b3778b32e9ae7b920e5d07760e7021a1.jar" />
+    </item>
+    <item
+        jar="C:\Program Files (x86)\Android\androidsdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\wwwmu\Desktop\University_Diploma\Examples\RecyclerViewerMyExample\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_2a204aa22b0960a539affc627edd42aef981a96c.jar" />
+    </item>
+
+</items>

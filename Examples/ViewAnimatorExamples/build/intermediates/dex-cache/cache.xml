@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Program Files (x86)\Android\androidsdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\wwwmu\Desktop\University_Diploma\Examples\ViewAnimatorExamples\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_2a204aa22b0960a539affc627edd42aef981a96c.jar" />
+    </item>
+    <item
+        jar="C:\Users\wwwmu\Desktop\University_Diploma\Examples\ViewAnimatorExamples\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\wwwmu\Desktop\University_Diploma\Examples\ViewAnimatorExamples\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_1c1007b4a7fa7cd4ed91afd75e9f880bc302dacb.jar" />
+    </item>
+    <item
+        jar="C:\Users\wwwmu\Desktop\University_Diploma\Examples\ViewAnimatorExamples\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\wwwmu\Desktop\University_Diploma\Examples\ViewAnimatorExamples\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_59ed55645d608864a42637cc0954285f2dbda5e6.jar" />
+    </item>
+    <item
+        jar="C:\Users\wwwmu\Desktop\University_Diploma\Examples\ViewAnimatorExamples\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\wwwmu\Desktop\University_Diploma\Examples\ViewAnimatorExamples\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_80bc8811cf99b6db2aaf89fa5fb2026894b2945f.jar" />
+    </item>
+
+</items>

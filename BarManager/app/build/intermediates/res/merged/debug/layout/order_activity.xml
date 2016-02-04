@@ -1,19 +1,36 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
 
-    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="auto_fit"
+        android:id="@+id/gridView">
+
+
+
+
+    </GridView>
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Order Activity"
-        android:id="@+id/textView12"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="256dp"
-        android:layout_gravity="center_horizontal" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/add"
+        fab:fab_colorNormal="#009688"
+        fab:fab_colorPressed="#4DB6AC"
+        fab:fab_colorRipple="#4DB6AC"
+        android:layout_margin="16dp"
+        fab:fab_shadow="true"
 
 
-</LinearLayout><!-- From: file:/C:/Users/wwwmu/Desktop/University_Diploma/BarManager/app/src/main/res/layout/order_activity.xml -->
+        />
+
+
+</RelativeLayout><!-- From: file:/C:/Users/wwwmu/Desktop/University_Diploma/BarManager/app/src/main/res/layout/order_activity.xml -->
