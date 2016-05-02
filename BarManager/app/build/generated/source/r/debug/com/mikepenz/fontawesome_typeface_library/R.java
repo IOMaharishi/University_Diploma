@@ -8,10 +8,10 @@ package com.mikepenz.fontawesome_typeface_library;
 
 public final class R {
 	public static final class attr {
-		public static final int iiv_color = 0x7f010044;
-		public static final int iiv_icon = 0x7f010043;
-		public static final int iiv_padding = 0x7f010046;
-		public static final int iiv_size = 0x7f010045;
+		public static final int iiv_color = 0x7f010045;
+		public static final int iiv_icon = 0x7f010044;
+		public static final int iiv_padding = 0x7f010047;
+		public static final int iiv_size = 0x7f010046;
 	}
 	public static final class string {
 		public static final int app_name = 0x7f060015;
@@ -30,7 +30,7 @@ public final class R {
 		public static final int library_AndroidIconics_year = 0x7f06002f;
 	}
 	public static final class styleable {
-		public static final int[] IconicsImageView = { 0x7f010043, 0x7f010044, 0x7f010045, 0x7f010046, 0x7f010047, 0x7f010048, 0x7f010049, 0x7f01004a };
+		public static final int[] IconicsImageView = { 0x7f010044, 0x7f010045, 0x7f010046, 0x7f010047, 0x7f010048, 0x7f010049, 0x7f01004a, 0x7f01004b };
 		public static final int IconicsImageView_iiv_color = 1;
 		public static final int IconicsImageView_iiv_icon = 0;
 		public static final int IconicsImageView_iiv_padding = 3;

@@ -8,12 +8,12 @@ package com.melnykov.fab;
 
 public final class R {
 	public static final class attr {
-		public static final int fab_colorDisabled = 0x7f010036;
-		public static final int fab_colorNormal = 0x7f010034;
-		public static final int fab_colorPressed = 0x7f010033;
-		public static final int fab_colorRipple = 0x7f010035;
-		public static final int fab_shadow = 0x7f010037;
-		public static final int fab_type = 0x7f010038;
+		public static final int fab_colorDisabled = 0x7f010037;
+		public static final int fab_colorNormal = 0x7f010035;
+		public static final int fab_colorPressed = 0x7f010034;
+		public static final int fab_colorRipple = 0x7f010036;
+		public static final int fab_shadow = 0x7f010038;
+		public static final int fab_type = 0x7f010039;
 	}
 	public static final class color {
 		public static final int material_blue_500 = 0x7f0b0024;
@@ -30,7 +30,7 @@ public final class R {
 		public static final int fab_shadow_mini = 0x7f02004f;
 	}
 	public static final class id {
-		public static final int mini = 0x7f0c0021;
+		public static final int mini = 0x7f0c0024;
 		public static final int normal = 0x7f0c0013;
 	}
 	public static final class string {
@@ -46,7 +46,7 @@ public final class R {
 		public static final int library_FloatingActionButton_repositoryLink = 0x7f060038;
 	}
 	public static final class styleable {
-		public static final int[] FloatingActionButton = { 0x7f010033, 0x7f010034, 0x7f010035, 0x7f010036, 0x7f010037, 0x7f010038 };
+		public static final int[] FloatingActionButton = { 0x7f010034, 0x7f010035, 0x7f010036, 0x7f010037, 0x7f010038, 0x7f010039 };
 		public static final int FloatingActionButton_fab_colorDisabled = 3;
 		public static final int FloatingActionButton_fab_colorNormal = 1;
 		public static final int FloatingActionButton_fab_colorPressed = 0;

@@ -3,24 +3,23 @@ package com.example.illia.BarManager.fragments.Order;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.ViewPager;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.HorizontalScrollView;
 import android.widget.TabHost;
 import android.widget.TabWidget;
 
 import com.example.illia.BarManager.R;
-import com.example.illia.BarManager.fragments.MenuFragment2;
-import com.example.illia.BarManager.utils.MenuInfo.MenuList;
+import com.example.illia.BarManager.fragments.Order.order_list.OrderEntity;
+import com.example.illia.BarManager.fragments.Order.order_list.OrderListSingelton;
+import com.example.illia.BarManager.fragments.OrdersFragment;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 /**
  * Created by wwwmu on 22.01.2016.
@@ -28,20 +27,13 @@ import java.util.List;
 public class CreateOrderFragment extends Fragment implements ViewPager.OnPageChangeListener,TabHost.OnTabChangeListener {
 
     OrderFragmentAdapter orderFragmentAdapter;
-
-
+    FragmentManager fragmentManager;
+    Button issue_button;
 
     TabHost tabHost;
     View view;
     ViewPager viewPager;
 
-    public void onCreate(Bundle savedInstanceState)
-    {
-
-
-        super.onCreate(savedInstanceState);
-
-    }
 
 
     @Override
@@ -50,7 +42,9 @@ public class CreateOrderFragment extends Fragment implements ViewPager.OnPageCha
 
         view = inflater.inflate(R.layout.create_order_activity, container,false);
         setRetainInstance(true);
-
+        fragmentManager = this.getActivity().getSupportFragmentManager();
+        issue_button = (Button) view.findViewById(R.id.issueorder_button);
+        issue_button.setOnClickListener(onClickListener);
 
         initViewPager();
 
@@ -135,6 +129,47 @@ public class CreateOrderFragment extends Fragment implements ViewPager.OnPageCha
     }
 
 
+    public View.OnClickListener onClickListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            /**
+             * Добавленеи в список заказа, который будет отображаться в GridView
+             */
+
+            OrderListSingelton.getInstance().getOrder_list().add(fillOrder());
+            OrdersFragment ordersFragment = new OrdersFragment();
+
+            fragmentManager.beginTransaction().replace(R.id.frame_container, ordersFragment).commit();
+
+
+        }
+    };
+
+    /**
+     *
+     * @return OrderEntity
+     */
+    public OrderEntity fillOrder(){
+
+        OrderEntity orderEntity = new OrderEntity();
+        ArrayList<Object> pages = new ArrayList<>(Arrays.asList(EntitySingelton.getInstance().getFragments().toArray()));//get list of  pages
+
+        for (Object objects: pages){
+
+            FragmentPatternViewPager page = (FragmentPatternViewPager) objects; //get pages
+            RowEntity[] entities = page.getEntities();//get row of pages
+
+            for (int i=0; i<entities.length; i++){
+                if(entities[i].getCount()>0){
+                    orderEntity.getOrder_map().put(entities[i].getTitle(),Integer.valueOf(entities[i].getCount()));// insert into order_list
+                }
+            }
+
+        }
+        return orderEntity;
+
+    }
+
     public class MyContent implements TabHost.TabContentFactory{
 
         Context context;
@@ -152,5 +187,7 @@ public class CreateOrderFragment extends Fragment implements ViewPager.OnPageCha
             return view;
         }
     }
+
+
 
 }

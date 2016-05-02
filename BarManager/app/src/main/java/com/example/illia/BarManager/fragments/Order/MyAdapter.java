@@ -14,9 +14,9 @@ import com.example.illia.BarManager.R;
  */
 public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
 
-    private Entity[] entities;
+    private RowEntity[] entities;
 
-    public MyAdapter(Entity[] entities){
+    public MyAdapter(RowEntity[] entities){
         this.entities = entities;
     }
 
@@ -62,9 +62,9 @@ class MyHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
     TextView textView;
     AppCompatButton addbutton, minusbutton;
-    Entity[] entities;
+    RowEntity[] entities;
 
-    public MyHolder(View itemView, Entity[] entities) {
+    public MyHolder(View itemView, RowEntity[] entities) {
         super(itemView);
         itemView.setOnClickListener(this);
         this.entities = entities;
@@ -125,7 +125,7 @@ class MyHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
 
 
-    };
+    }
 
 
 

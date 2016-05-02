@@ -12,9 +12,11 @@ import java.util.List;
  * Created by wwwmu on 27.01.2016.
  */
 public class EntitySingelton {
-
+    /**
+     * It list of fragments wich will be show, when you will create order in ViewPager
+     */
     private static EntitySingelton entitySingelton = new EntitySingelton();
-
+    private RowEntity[] entities;
     List<Fragment> fragments;
 
     public EntitySingelton(){
@@ -46,12 +48,12 @@ public class EntitySingelton {
 
         FragmentPatternViewPager pattern;
 
-        Entity [] entities = new Entity[list.length];
+        entities = new RowEntity[list.length];
 
 
         for (int i =0 ; i< list.length; i++){
 
-            entities[i] = new Entity(list[i]);
+            entities[i] = new RowEntity(list[i]);
         }
 
          pattern = new FragmentPatternViewPager(entities);
@@ -64,4 +66,9 @@ public class EntitySingelton {
     public List<Fragment> getFragments(){
         return fragments;
     }
+
+
+
+
+
 }

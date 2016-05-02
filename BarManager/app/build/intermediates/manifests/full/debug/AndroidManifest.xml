@@ -26,6 +26,7 @@
         <activity
             android:name="com.example.illia.BarManager.StartActivity"
             android:label="Authentication"
+            android:screenOrientation="portrait"
             android:theme="@style/AuthWindow" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,6 +38,7 @@
             android:name="com.example.illia.BarManager.CoreActivity"
             android:label="BarManager"
             android:parentActivityName="com.example.illia.BarManager.StartActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme" >
         </activity>
     </application>

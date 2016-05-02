@@ -1,9 +1,7 @@
 package com.example.illia.BarManager.fragments.Order;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -18,11 +16,11 @@ import com.example.illia.BarManager.R;
  */
 public class FragmentPatternViewPager extends Fragment {
 
-     private   Entity [] entities;
+     private   RowEntity[] entities;
 
 
 
-    public FragmentPatternViewPager(Entity[] entities){
+    public FragmentPatternViewPager(RowEntity[] entities){
 
         this.entities = entities;
 
@@ -66,9 +64,10 @@ public class FragmentPatternViewPager extends Fragment {
         return view;
     }
 
-  /*  @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-    }*/
+
+
+    public RowEntity[] getEntities(){
+        return entities;
+    }
 
 }
